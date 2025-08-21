@@ -1,10 +1,10 @@
-public class Grade {
+public class grade {
     private String courseName;
     private double score;
     private String letterGrade;
 
     // Constructor
-    public Grade(String courseName, double score) {
+    public grade(String courseName, double score) {
         this.courseName = courseName;
         this.score = score;
         this.calculateLetterGrade();
